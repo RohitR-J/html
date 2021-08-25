@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <!--input fields--name ,email & password  -->
+    <form action="" method="post" style="font-family:sans-serif;" >
+        <fieldset style="width: 300px;">
+            <legend>Form</legend>
+            <label>Name:</label><br>
+            <input  type="text" name="name" placeholder="Enter your name" maxlength="25"><br>
+            <label> Email:</label><br>
+            <input type="email" name="email" value="test@example.com" autofocus><br>
+            <label>Password</label><br>
+            <input type="password" placeholder="Enter your password" maxlength="6"><br>
+        
+         
+            <!-- dropdown-- category student, employee, freelancer -->
+    
+            <label>Select category:</label><br>
+            <select>
+                <option value="student">Student</option>
+                <option value="employee">Employee</option>
+                <option value="freelancer" selected>Freelancer</option>
+            </select><br>
+    
+            <!-- date..... -->
+    
+            <label>Event Date</label><br>
+            <input type="date"><br>
+    
+            <!-- radio button with 3 options 1,2,3 ticket -->
+        
+            <label>Tickets</label><br>
+            <input type="radio" name="ticket">
+            <label>1 ticket</label>
+            <input type="radio" name="ticket" checked >
+            <label>2 ticket</label>
+            <input type="radio" name="ticket">
+            <label>3 ticket</label><br>
+            <!-- payment Checkbox -->
+            <label>Payment</label><br>
+            <input type="checkbox">
+            <label>Online Payment</label><br>
+            <!-- Notes -->
+            <label>Notes:</label><br>
+            <textarea cols="23" rows="3" placeholder="Type your notes here"></textarea><br>
+            <!-- submit and reset buttons -->
+            <button type="submit">Submit</button>
+            <button type="reset">Reset</button>
+        </fieldset> 
+    
+    
+            
+    </form>
+    
+    
+
+    
+
+
+</body>
+</html>
